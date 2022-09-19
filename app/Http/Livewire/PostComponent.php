@@ -30,6 +30,8 @@ class PostComponent extends Component
             'title' => $this->title,
             'body' => $this->body
         ]);
+
+        $this->default();
     }
 
     public function edit($id)
